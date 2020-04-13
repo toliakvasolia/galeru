@@ -1,0 +1,46 @@
+.g {
+    background-color: rgb(221, 221, 223);
+    margin: auto;
+    padding: 60px;
+    box-shadow: 0px 2px 10px 5px rgb(175, 7, 7);
+    text-align: center;
+    width: 80%;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+}
+
+@media all and (min-width: 1200px) {
+    img:hover {
+        box-shadow: 0px 2px 10px 5px rgb(57, 74, 77);
+    }
+    h1:hover {
+        font-size: 45px;
+        text-transform: uppercase;
+    }
+    .q:hover {
+        color: rgb(19, 150, 226);
+        font-size: 25px;
+    }
+    .f:hover {
+        font-size: 20px;
+        color: blueviolet;
+    }
+    .s:hover {
+        font-size: 20px;
+        color: rgb(185, 34, 34);
+    }
+}
+
+@media all and (max-width: 920px) {
+    img {
+        width: 500px;
+    }
+    h1 {
+        font-size: 30px;
+    }
+}

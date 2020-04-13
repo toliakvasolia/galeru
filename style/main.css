@@ -1,0 +1,140 @@
+                * {
+                    margin: 0;
+                    padding: 0;
+                    box-sizing: border-box;
+                }
+                
+                main {
+                    background-color: rgb(245, 245, 255);
+                    margin: auto;
+                    padding: 60px;
+                    width: 80%;
+                    text-align: center;
+                    box-shadow: 0px 2px 10px 5px black;
+                }
+                
+                body {
+                    background-color: darkgrey;
+                    font-family: 'Comic Neue', cursive;
+                }
+                
+                .foto1 {
+                    background-image: url(../imagem/img1.jpg);
+                    background-size: cover;
+                    background-position: center;
+                }
+                
+                .imge {
+                    width: 450px;
+                    height: 250px;
+                    background-color: darkmagenta;
+                    margin: 30px;
+                    box-shadow: 0px 2px 10px 3px rgb(97, 25, 180);
+                    opacity: 0.7;
+                }
+                
+                h1 {
+                    color: rgb(157, 27, 233);
+                    padding-bottom: 10px;
+                }
+                
+                .foto2 {
+                    background-image: url(../imagem/img2.jpg);
+                    background-size: cover;
+                    background-position: center;
+                }
+                
+                .foto3 {
+                    background-image: url(../imagem/img3.jpg);
+                    background-size: cover;
+                    background-position: center;
+                }
+                
+                .foto4 {
+                    background-image: url(../imagem/img4.jpg);
+                    background-size: cover;
+                    background-position: center;
+                }
+                
+                .foto5 {
+                    background-image: url(../imagem/img5.jpg);
+                    background-size: cover;
+                    background-position: center;
+                }
+                
+                .foto6 {
+                    background-image: url(../imagem/img6.jpg);
+                    background-size: cover;
+                    background-position: center;
+                }
+                
+                .foto7 {
+                    background-image: url(../imagem/img7.jpg);
+                    background-size: cover;
+                    background-position: center;
+                }
+                
+                .foto8 {
+                    background-image: url(../imagem/img8.jpg);
+                    background-size: cover;
+                    background-position: center;
+                }
+                
+                .foto9 {
+                    background-image: url(../imagem/img9.jpg);
+                    background-size: cover;
+                    background-position: center;
+                }
+                
+                .foto10 {
+                    background-image: url(../imagem/img10.jpg);
+                    background-size: cover;
+                    background-position: center;
+                }
+                
+                .foto11 {
+                    background-image: url(../imagem/img11.jpg);
+                    background-size: cover;
+                    background-position: center;
+                }
+                
+                .foto12 {
+                    background-image: url(../imagem/img12.jpg);
+                    background-size: cover;
+                    background-position: center;
+                }
+                
+                .boss {
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                }
+                
+                p {
+                    font-size: 20px;
+                    color: blueviolet;
+                }
+                
+                a {
+                    padding: 15px;
+                    display: block;
+                    text-decoration: none;
+                }
+                
+                @media all and (min-width: 1200px) {
+                    .imge:hover {
+                        opacity: 1;
+                        transform: scale(1.1) rotate(2deg);
+                        box-shadow: 0px 2px 10px 5px black;
+                    }
+                    h1:hover {
+                        font-size: 35px;
+                        text-transform: uppercase;
+                    }
+                }
+                
+                @media all and (max-width: 1200px) {
+                    .imge {
+                        opacity: 1;
+                    }
+                }
